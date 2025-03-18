@@ -12,4 +12,6 @@ public abstract class Conta {
     public void setSaldo(Double valor){
         this.saldo = valor;
     }
+
+    public abstract void imprimeExtrato();
 }
