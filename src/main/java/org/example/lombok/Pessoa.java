@@ -1,0 +1,36 @@
+package org.example.lombok;
+//import lombok.Getter
+//import lombok.Setter
+
+//@ToString - torna o objeto uma string no terminal
+
+public class Pessoa {
+    private Long id;
+    private String nome;
+    private Integer idade;
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setIdade(Integer idade) {
+        this.idade = idade;
+    }
+
+    public Integer getIdade() {
+        return idade;
+    }
+}
