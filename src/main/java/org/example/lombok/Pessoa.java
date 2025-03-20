@@ -1,5 +1,5 @@
 package org.example.lombok;
-//import lombok.Getter
+//import lombok.Getter;
 //import lombok.Setter
 
 //@ToString - torna o objeto uma string no terminal
